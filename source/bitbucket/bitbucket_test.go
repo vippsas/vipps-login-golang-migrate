@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	st "github.com/golang-migrate/migrate/v4/source/testing"
+	st "github.com/vippsas/vipps-login-golang-migrate/v1/source/testing"
 )
 
 var BitbucketTestSecret = "" // username:password

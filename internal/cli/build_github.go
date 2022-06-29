@@ -4,5 +4,5 @@
 package cli
 
 import (
-	_ "github.com/golang-migrate/migrate/v4/source/github"
+	_ "github.com/vippsas/vipps-login-golang-migrate/v1/source/github"
 )

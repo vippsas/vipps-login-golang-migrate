@@ -6,8 +6,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	st "github.com/golang-migrate/migrate/v4/source/testing"
 	"github.com/stretchr/testify/assert"
+	st "github.com/vippsas/vipps-login-golang-migrate/v1/source/testing"
 )
 
 var GithubTestSecret = "" // username:token

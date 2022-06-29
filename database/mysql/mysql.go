@@ -17,8 +17,8 @@ import (
 	"strings"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/golang-migrate/migrate/v4/database"
 	"github.com/hashicorp/go-multierror"
+	"github.com/vippsas/vipps-login-golang-migrate/v1/database"
 )
 
 var _ database.Driver = (*Mysql)(nil) // explicit compile time type check

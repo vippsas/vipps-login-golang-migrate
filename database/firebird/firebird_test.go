@@ -7,16 +7,16 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/golang-migrate/migrate/v4"
+	"github.com/vippsas/vipps-login-golang-migrate/v1"
 	"io"
 	"strings"
 	"testing"
 
 	"github.com/dhui/dktest"
 
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	dt "github.com/vippsas/vipps-login-golang-migrate/v1/database/testing"
+	"github.com/vippsas/vipps-login-golang-migrate/v1/dktesting"
+	_ "github.com/vippsas/vipps-login-golang-migrate/v1/source/file"
 
 	_ "github.com/nakagami/firebirdsql"
 )

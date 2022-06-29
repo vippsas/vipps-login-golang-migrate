@@ -12,8 +12,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/golang-migrate/migrate/v4/source"
 	"github.com/google/go-github/v39/github"
+	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
 )
 
 func init() {

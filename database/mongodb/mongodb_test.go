@@ -7,7 +7,7 @@ import (
 
 	"log"
 
-	"github.com/golang-migrate/migrate/v4"
+	"github.com/vippsas/vipps-login-golang-migrate/v1"
 	"io"
 	"os"
 	"strconv"
@@ -23,9 +23,9 @@ import (
 )
 
 import (
-	dt "github.com/golang-migrate/migrate/v4/database/testing"
-	"github.com/golang-migrate/migrate/v4/dktesting"
-	_ "github.com/golang-migrate/migrate/v4/source/file"
+	dt "github.com/vippsas/vipps-login-golang-migrate/v1/database/testing"
+	"github.com/vippsas/vipps-login-golang-migrate/v1/dktesting"
+	_ "github.com/vippsas/vipps-login-golang-migrate/v1/source/file"
 )
 
 var (

@@ -112,9 +112,9 @@ __[Go Documentation](https://godoc.org/github.com/golang-migrate/migrate)__
 
 ```go
 import (
-    "github.com/golang-migrate/migrate/v4"
-    _ "github.com/golang-migrate/migrate/v4/database/postgres"
-    _ "github.com/golang-migrate/migrate/v4/source/github"
+    "github.com/vippsas/vipps-login-golang-migrate/v1"
+    _ "github.com/vippsas/vipps-login-golang-migrate/v1/database/postgres"
+    _ "github.com/vippsas/vipps-login-golang-migrate/v1/source/github"
 )
 
 func main() {
@@ -131,9 +131,9 @@ Want to use an existing database client?
 import (
     "database/sql"
     _ "github.com/lib/pq"
-    "github.com/golang-migrate/migrate/v4"
-    "github.com/golang-migrate/migrate/v4/database/postgres"
-    _ "github.com/golang-migrate/migrate/v4/source/file"
+    "github.com/vippsas/vipps-login-golang-migrate/v1"
+    "github.com/vippsas/vipps-login-golang-migrate/v1/database/postgres"
+    _ "github.com/vippsas/vipps-login-golang-migrate/v1/source/file"
 )
 
 func main() {
@@ -172,8 +172,8 @@ Each migration has an up and down migration. [Why?](FAQ.md#why-two-separate-file
 
 Version | Supported? | Import | Notes
 --------|------------|--------|------
-**master** | :white_check_mark: | `import "github.com/golang-migrate/migrate/v4"` | New features and bug fixes arrive here first |
-**v4** | :white_check_mark: | `import "github.com/golang-migrate/migrate/v4"` | Used for stable releases |
+**master** | :white_check_mark: | `import "github.com/vippsas/vipps-login-golang-migrate/v1"` | New features and bug fixes arrive here first |
+**v4** | :white_check_mark: | `import "github.com/vippsas/vipps-login-golang-migrate/v1"` | Used for stable releases |
 **v3** | :x: | `import "github.com/golang-migrate/migrate"` (with package manager) or `import "gopkg.in/golang-migrate/migrate.v3"` (not recommended) | **DO NOT USE** - No longer supported |
 
 ## Development and Contributing
