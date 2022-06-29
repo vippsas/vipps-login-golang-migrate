@@ -1,4 +1,4 @@
-module github.com/vippsas/vipps-login-golang-migrate/v1
+module github.com/vippsas/vipps-login-golang-migrate
 
 require (
 	cloud.google.com/go v0.99.0 // indirect
