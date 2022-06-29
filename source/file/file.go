@@ -5,8 +5,8 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
 	"github.com/vippsas/vipps-login-golang-migrate/v1/source/iofs"
-	"github.com/vippsas/vipps-login-golang-migratev1/source"
 )
 
 func init() {
