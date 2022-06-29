@@ -7,6 +7,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"github.com/vippsas/vipps-login-golang-migrate/database"
 	"go.uber.org/atomic"
 	"io"
 	"io/ioutil"
@@ -20,7 +21,7 @@ import (
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgerrcode"
 	_ "github.com/jackc/pgx/v4/stdlib"
-	"github.com/vippsas/vipps-login-golang-migrate/"
+	"github.com/vippsas/vipps-login-golang-migrate"
 	"github.com/vippsas/vipps-login-golang-migrate/database/multistmt"
 )
 

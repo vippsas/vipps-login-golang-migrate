@@ -112,7 +112,7 @@ __[Go Documentation](https://godoc.org/github.com/golang-migrate/migrate)__
 
 ```go
 import (
-    "github.com/vippsas/vipps-login-golang-migrate/"
+    "github.com/vippsas/vipps-login-golang-migrate"
     _ "github.com/vippsas/vipps-login-golang-migrate/database/postgres"
     _ "github.com/vippsas/vipps-login-golang-migrate/source/github"
 )
@@ -131,7 +131,7 @@ Want to use an existing database client?
 import (
     "database/sql"
     _ "github.com/lib/pq"
-    "github.com/vippsas/vipps-login-golang-migrate/"
+    "github.com/vippsas/vipps-login-golang-migrate"
     "github.com/vippsas/vipps-login-golang-migrate/database/postgres"
     _ "github.com/vippsas/vipps-login-golang-migrate/source/file"
 )
@@ -172,8 +172,8 @@ Each migration has an up and down migration. [Why?](FAQ.md#why-two-separate-file
 
 Version | Supported? | Import | Notes
 --------|------------|--------|------
-**master** | :white_check_mark: | `import "github.com/vippsas/vipps-login-golang-migrate/"` | New features and bug fixes arrive here first |
-**v4** | :white_check_mark: | `import "github.com/vippsas/vipps-login-golang-migrate/"` | Used for stable releases |
+**master** | :white_check_mark: | `import "github.com/vippsas/vipps-login-golang-migrate"` | New features and bug fixes arrive here first |
+**v4** | :white_check_mark: | `import "github.com/vippsas/vipps-login-golang-migrate"` | Used for stable releases |
 **v3** | :x: | `import "github.com/golang-migrate/migrate"` (with package manager) or `import "gopkg.in/golang-migrate/migrate.v3"` (not recommended) | **DO NOT USE** - No longer supported |
 
 ## Development and Contributing

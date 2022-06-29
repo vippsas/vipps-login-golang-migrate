@@ -8,7 +8,7 @@ import (
 )
 
 import (
-	"github.com/vippsas/vipps-login-golang-migrate/"
+	"github.com/vippsas/vipps-login-golang-migrate"
 )
 
 // TestMigrate runs integration-tests between the Migrate layer and database implementations.

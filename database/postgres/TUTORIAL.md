@@ -128,7 +128,7 @@ Here is a very simple app running migrations for the above configuration:
 import (
 	"log"
 
-	"github.com/vippsas/vipps-login-golang-migrate/"
+	"github.com/vippsas/vipps-login-golang-migrate"
 	_ "github.com/vippsas/vipps-login-golang-migrate/database/postgres"
 	_ "github.com/vippsas/vipps-login-golang-migrate/source/file"
 )

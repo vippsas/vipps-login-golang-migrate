@@ -6,7 +6,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/vippsas/vipps-login-golang-migrate/"
+	"github.com/vippsas/vipps-login-golang-migrate"
 	"github.com/markbates/pkger"
 
 	_ "github.com/vippsas/vipps-login-golang-migrate/database/postgres"

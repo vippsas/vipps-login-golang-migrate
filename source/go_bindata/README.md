@@ -13,7 +13,7 @@ cd examples/migrations && go-bindata -pkg migrations .
 
 ```go
 import (
-  "github.com/vippsas/vipps-login-golang-migrate/"
+  "github.com/vippsas/vipps-login-golang-migrate"
   "github.com/vippsas/vipps-login-golang-migrate/source/go_bindata"
   "github.com/vippsas/vipps-login-golang-migrate/source/go_bindata/examples/migrations"
 )

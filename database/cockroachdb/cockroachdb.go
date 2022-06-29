@@ -4,6 +4,7 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	"github.com/vippsas/vipps-login-golang-migrate/database"
 	"go.uber.org/atomic"
 	"io"
 	"io/ioutil"
@@ -19,7 +20,7 @@ import (
 )
 
 import (
-	"github.com/vippsas/vipps-login-golang-migrate/"
+	"github.com/vippsas/vipps-login-golang-migrate"
 )
 
 func init() {
