@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source/httpfs"
-	st "github.com/vippsas/vipps-login-golang-migrate/v1/source/testing"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
+	"github.com/vippsas/vipps-login-golang-migrate/source/httpfs"
+	st "github.com/vippsas/vipps-login-golang-migrate/source/testing"
 )
 
 type driver struct{ httpfs.PartialDriver }

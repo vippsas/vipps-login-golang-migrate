@@ -9,7 +9,7 @@ import (
 	"github.com/markbates/pkger"
 	"github.com/markbates/pkger/pkging"
 	"github.com/markbates/pkger/pkging/mem"
-	st "github.com/vippsas/vipps-login-golang-migrate/v1/source/testing"
+	st "github.com/vippsas/vipps-login-golang-migrate/source/testing"
 )
 
 func Test(t *testing.T) {

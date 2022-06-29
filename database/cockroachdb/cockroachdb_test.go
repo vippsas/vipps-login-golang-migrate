@@ -6,7 +6,6 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
 	"log"
 	"strings"
 	"testing"
@@ -18,9 +17,9 @@ import (
 )
 
 import (
-	dt "github.com/vippsas/vipps-login-golang-migrate/v1/database/testing"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/dktesting"
-	_ "github.com/vippsas/vipps-login-golang-migrate/v1/source/file"
+	dt "github.com/vippsas/vipps-login-golang-migrate/database/testing"
+	"github.com/vippsas/vipps-login-golang-migrate/dktesting"
+	_ "github.com/vippsas/vipps-login-golang-migrate/source/file"
 )
 
 const defaultPort = 26257

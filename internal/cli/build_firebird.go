@@ -4,5 +4,5 @@
 package cli
 
 import (
-	_ "github.com/vippsas/vipps-login-golang-migrate/v1/database/firebird"
+	_ "github.com/vippsas/vipps-login-golang-migrate/database/firebird"
 )

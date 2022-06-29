@@ -12,9 +12,9 @@ import (
 )
 
 import (
-	dStub "github.com/vippsas/vipps-login-golang-migrate/v1/database/stub"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
-	sStub "github.com/vippsas/vipps-login-golang-migrate/v1/source/stub"
+	dStub "github.com/vippsas/vipps-login-golang-migrate/database/stub"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
+	sStub "github.com/vippsas/vipps-login-golang-migrate/source/stub"
 )
 
 // sourceStubMigrations hold the following migrations:
@@ -117,7 +117,7 @@ func ExampleNewWithDatabaseInstance() {
 
 	// Create driver instance from db.
 	// Check each driver if it supports the WithInstance function.
-	// `import "github.com/vippsas/vipps-login-golang-migrate/v1/database/postgres"`
+	// `import "github.com/vippsas/vipps-login-golang-migrate/database/postgres"`
 	instance, err := dStub.WithInstance(db, &dStub.Config{})
 	if err != nil {
 		log.Fatal(err)
@@ -167,7 +167,7 @@ func ExampleNewWithSourceInstance() {
 
 	// Create driver instance from DummyInstance di.
 	// Check each driver if it support the WithInstance function.
-	// `import "github.com/vippsas/vipps-login-golang-migrate/v1/source/stub"`
+	// `import "github.com/vippsas/vipps-login-golang-migrate/source/stub"`
 	instance, err := sStub.WithInstance(di, &sStub.Config{})
 	if err != nil {
 		log.Fatal(err)

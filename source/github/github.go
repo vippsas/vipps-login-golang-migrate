@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"github.com/google/go-github/v39/github"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
 )
 
 func init() {

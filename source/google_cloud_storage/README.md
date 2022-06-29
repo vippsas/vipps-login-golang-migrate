@@ -5,7 +5,7 @@
 
 ```go
 import (
-  _ "github.com/vippsas/vipps-login-golang-migrate/v1/source/google_cloud_storage"
+  _ "github.com/vippsas/vipps-login-golang-migrate/source/google_cloud_storage"
  )
  ```
 

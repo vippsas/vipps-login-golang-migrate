@@ -6,8 +6,8 @@ package iofs_test
 import (
 	"testing"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source/iofs"
-	st "github.com/vippsas/vipps-login-golang-migrate/v1/source/testing"
+	"github.com/vippsas/vipps-login-golang-migrate/source/iofs"
+	st "github.com/vippsas/vipps-login-golang-migrate/source/testing"
 )
 
 func Test(t *testing.T) {

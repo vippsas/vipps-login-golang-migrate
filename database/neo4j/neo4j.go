@@ -11,8 +11,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/neo4j/neo4j-go-driver/neo4j"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database/multistmt"
+	"github.com/vippsas/vipps-login-golang-migrate/database"
+	"github.com/vippsas/vipps-login-golang-migrate/database/multistmt"
 )
 
 func init() {

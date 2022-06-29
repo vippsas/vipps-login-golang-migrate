@@ -16,8 +16,7 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/lib/pq"
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database"
+	"github.com/vippsas/vipps-login-golang-migrate/database"
 )
 
 func init() {

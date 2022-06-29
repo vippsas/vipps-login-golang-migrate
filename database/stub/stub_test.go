@@ -1,12 +1,11 @@
 package stub
 
 import (
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source/stub"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
+	"github.com/vippsas/vipps-login-golang-migrate/source/stub"
 	"testing"
 
-	dt "github.com/vippsas/vipps-login-golang-migrate/v1/database/testing"
+	dt "github.com/vippsas/vipps-login-golang-migrate/database/testing"
 )
 
 func Test(t *testing.T) {

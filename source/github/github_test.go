@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	st "github.com/vippsas/vipps-login-golang-migrate/v1/source/testing"
+	st "github.com/vippsas/vipps-login-golang-migrate/source/testing"
 )
 
 var GithubTestSecret = "" // username:token

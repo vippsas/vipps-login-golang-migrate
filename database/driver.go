@@ -9,7 +9,7 @@ import (
 	"io"
 	"sync"
 
-	iurl "github.com/vippsas/vipps-login-golang-migrate/v1/internal/url"
+	iurl "github.com/vippsas/vipps-login-golang-migrate/internal/url"
 )
 
 var (

@@ -7,8 +7,8 @@ import (
 
 	"github.com/markbates/pkger"
 	"github.com/markbates/pkger/pkging"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source/httpfs"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
+	"github.com/vippsas/vipps-login-golang-migrate/source/httpfs"
 )
 
 func init() {

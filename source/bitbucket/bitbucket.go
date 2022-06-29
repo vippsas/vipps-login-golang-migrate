@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/ktrysmt/go-bitbucket"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
 )
 
 func init() {

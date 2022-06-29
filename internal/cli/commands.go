@@ -9,9 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
-	_ "github.com/vippsas/vipps-login-golang-migrate/v1/database/stub" // TODO remove again
-	_ "github.com/vippsas/vipps-login-golang-migrate/v1/source/file"
+	_ "github.com/vippsas/vipps-login-golang-migrate/database/stub" // TODO remove again
+	_ "github.com/vippsas/vipps-login-golang-migrate/source/file"
 )
 
 var (

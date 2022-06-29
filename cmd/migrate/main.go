@@ -1,6 +1,6 @@
 package main
 
-import "github.com/vippsas/vipps-login-golang-migrate/v1/internal/cli"
+import "github.com/vippsas/vipps-login-golang-migrate/internal/cli"
 
 func main() {
 	cli.Main(Version)

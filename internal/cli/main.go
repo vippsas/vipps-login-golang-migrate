@@ -10,9 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
+	"github.com/vippsas/vipps-login-golang-migrate/database"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
 )
 
 const (

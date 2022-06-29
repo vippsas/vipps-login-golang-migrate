@@ -7,7 +7,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
 )
 
 type AssetFunc func(name string) ([]byte, error)

@@ -8,7 +8,7 @@ import (
 	"path"
 	"strconv"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
 )
 
 // PartialDriver is a helper service for creating new source drivers working with

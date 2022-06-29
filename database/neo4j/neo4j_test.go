@@ -10,10 +10,9 @@ import (
 	"github.com/dhui/dktest"
 	"github.com/neo4j/neo4j-go-driver/neo4j"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
-	dt "github.com/vippsas/vipps-login-golang-migrate/v1/database/testing"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/dktesting"
-	_ "github.com/vippsas/vipps-login-golang-migrate/v1/source/file"
+	dt "github.com/vippsas/vipps-login-golang-migrate/database/testing"
+	"github.com/vippsas/vipps-login-golang-migrate/dktesting"
+	_ "github.com/vippsas/vipps-login-golang-migrate/source/file"
 )
 
 var (

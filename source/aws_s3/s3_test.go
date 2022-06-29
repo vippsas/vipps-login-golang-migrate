@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/stretchr/testify/assert"
-	st "github.com/vippsas/vipps-login-golang-migrate/v1/source/testing"
+	st "github.com/vippsas/vipps-login-golang-migrate/source/testing"
 )
 
 func Test(t *testing.T) {

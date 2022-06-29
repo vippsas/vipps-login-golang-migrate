@@ -10,11 +10,10 @@ import (
 
 	_ "github.com/ClickHouse/clickhouse-go"
 	"github.com/dhui/dktest"
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database/clickhouse"
-	dt "github.com/vippsas/vipps-login-golang-migrate/v1/database/testing"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/dktesting"
-	_ "github.com/vippsas/vipps-login-golang-migrate/v1/source/file"
+	"github.com/vippsas/vipps-login-golang-migrate/database/clickhouse"
+	dt "github.com/vippsas/vipps-login-golang-migrate/database/testing"
+	"github.com/vippsas/vipps-login-golang-migrate/dktesting"
+	_ "github.com/vippsas/vipps-login-golang-migrate/source/file"
 )
 
 const defaultPort = 9000

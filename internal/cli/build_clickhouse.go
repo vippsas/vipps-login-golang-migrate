@@ -5,5 +5,5 @@ package cli
 
 import (
 	_ "github.com/ClickHouse/clickhouse-go"
-	_ "github.com/vippsas/vipps-login-golang-migrate/v1/database/clickhouse"
+	_ "github.com/vippsas/vipps-login-golang-migrate/database/clickhouse"
 )

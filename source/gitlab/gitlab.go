@@ -13,7 +13,7 @@ import (
 )
 
 import (
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
 	"github.com/xanzy/go-gitlab"
 )
 

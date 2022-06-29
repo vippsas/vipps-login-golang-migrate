@@ -3,8 +3,8 @@ package stub
 import (
 	"testing"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
-	st "github.com/vippsas/vipps-login-golang-migrate/v1/source/testing"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
+	st "github.com/vippsas/vipps-login-golang-migrate/source/testing"
 )
 
 func Test(t *testing.T) {

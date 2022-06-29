@@ -10,7 +10,7 @@ import (
 )
 
 import (
-	"github.com/vippsas/vipps-login-golang-migrate/v1/dktesting"
+	"github.com/vippsas/vipps-login-golang-migrate/dktesting"
 )
 
 func ExampleParallelTest() {

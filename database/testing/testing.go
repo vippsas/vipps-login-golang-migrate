@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database"
+	"github.com/vippsas/vipps-login-golang-migrate/database"
 )
 
 // Test runs tests against database implementations.

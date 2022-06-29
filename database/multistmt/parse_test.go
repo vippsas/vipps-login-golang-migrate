@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database/multistmt"
+	"github.com/vippsas/vipps-login-golang-migrate/database/multistmt"
 )
 
 const maxMigrationSize = 1024

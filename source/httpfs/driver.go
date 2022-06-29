@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
 )
 
 // driver is a migration source driver for reading migrations from

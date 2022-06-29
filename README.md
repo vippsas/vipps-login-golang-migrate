@@ -113,8 +113,8 @@ __[Go Documentation](https://godoc.org/github.com/golang-migrate/migrate)__
 ```go
 import (
     "github.com/vippsas/vipps-login-golang-migrate/v1"
-    _ "github.com/vippsas/vipps-login-golang-migrate/v1/database/postgres"
-    _ "github.com/vippsas/vipps-login-golang-migrate/v1/source/github"
+    _ "github.com/vippsas/vipps-login-golang-migrate/database/postgres"
+    _ "github.com/vippsas/vipps-login-golang-migrate/source/github"
 )
 
 func main() {
@@ -132,8 +132,8 @@ import (
     "database/sql"
     _ "github.com/lib/pq"
     "github.com/vippsas/vipps-login-golang-migrate/v1"
-    "github.com/vippsas/vipps-login-golang-migrate/v1/database/postgres"
-    _ "github.com/vippsas/vipps-login-golang-migrate/v1/source/file"
+    "github.com/vippsas/vipps-login-golang-migrate/database/postgres"
+    _ "github.com/vippsas/vipps-login-golang-migrate/source/file"
 )
 
 func main() {

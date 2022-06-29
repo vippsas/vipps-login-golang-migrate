@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"reflect"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database"
+	"github.com/vippsas/vipps-login-golang-migrate/database"
 )
 
 func init() {

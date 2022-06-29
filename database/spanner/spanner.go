@@ -17,10 +17,8 @@ import (
 	sdb "cloud.google.com/go/spanner/admin/database/apiv1"
 	"cloud.google.com/go/spanner/spansql"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database"
-
 	"github.com/hashicorp/go-multierror"
+	"github.com/vippsas/vipps-login-golang-migrate/database"
 	uatomic "go.uber.org/atomic"
 	"google.golang.org/api/iterator"
 	adminpb "google.golang.org/genproto/googleapis/spanner/admin/database/v1"

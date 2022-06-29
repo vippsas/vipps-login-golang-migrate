@@ -4,5 +4,5 @@
 package cli
 
 import (
-	_ "github.com/vippsas/vipps-login-golang-migrate/v1/source/godoc_vfs"
+	_ "github.com/vippsas/vipps-login-golang-migrate/source/godoc_vfs"
 )

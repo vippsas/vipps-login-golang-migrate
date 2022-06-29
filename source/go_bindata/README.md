@@ -14,8 +14,8 @@ cd examples/migrations && go-bindata -pkg migrations .
 ```go
 import (
   "github.com/vippsas/vipps-login-golang-migrate/v1"
-  "github.com/vippsas/vipps-login-golang-migrate/v1/source/go_bindata"
-  "github.com/vippsas/vipps-login-golang-migrate/v1/source/go_bindata/examples/migrations"
+  "github.com/vippsas/vipps-login-golang-migrate/source/go_bindata"
+  "github.com/vippsas/vipps-login-golang-migrate/source/go_bindata/examples/migrations"
 )
 
 func main() {

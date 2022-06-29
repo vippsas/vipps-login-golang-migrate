@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source/httpfs"
-	st "github.com/vippsas/vipps-login-golang-migrate/v1/source/testing"
+	"github.com/vippsas/vipps-login-golang-migrate/source/httpfs"
+	st "github.com/vippsas/vipps-login-golang-migrate/source/testing"
 )
 
 func TestNewOK(t *testing.T) {

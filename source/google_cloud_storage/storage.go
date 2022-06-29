@@ -10,7 +10,7 @@ import (
 
 	"cloud.google.com/go/storage"
 	"context"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
 	"google.golang.org/api/iterator"
 )
 

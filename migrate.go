@@ -13,9 +13,9 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database"
-	iurl "github.com/vippsas/vipps-login-golang-migrate/v1/internal/url"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/source"
+	"github.com/vippsas/vipps-login-golang-migrate/database"
+	iurl "github.com/vippsas/vipps-login-golang-migrate/internal/url"
+	"github.com/vippsas/vipps-login-golang-migrate/source"
 )
 
 // DefaultPrefetchMigrations sets the number of migrations to pre-read

@@ -16,7 +16,6 @@ import (
 	"github.com/hashicorp/go-multierror"
 	mssql "github.com/microsoft/go-mssqldb" // mssql support
 	"github.com/vippsas/vipps-login-golang-migrate/v1"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database"
 )
 
 func init() {

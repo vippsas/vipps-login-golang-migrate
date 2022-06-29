@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/cenkalti/backoff/v4"
 	"github.com/hashicorp/go-multierror"
-	"github.com/vippsas/vipps-login-golang-migrate/v1/database"
+	"github.com/vippsas/vipps-login-golang-migrate/database"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"

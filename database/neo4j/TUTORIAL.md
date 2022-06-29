@@ -79,8 +79,8 @@ import (
 	"log"
 
 	"github.com/vippsas/vipps-login-golang-migrate/v1"
-	_ "github.com/vippsas/vipps-login-golang-migrate/v1/database/neo4j"
-	_ "github.com/vippsas/vipps-login-golang-migrate/v1/source/file"
+	_ "github.com/vippsas/vipps-login-golang-migrate/database/neo4j"
+	_ "github.com/vippsas/vipps-login-golang-migrate/source/file"
 )
 
 func main() {
