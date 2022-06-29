@@ -4,6 +4,8 @@ import (
 	"context"
 	"database/sql"
 	"fmt"
+	migrate "github.com/vippsas/vipps-login-golang-migrate"
+	"github.com/vippsas/vipps-login-golang-migrate/database"
 	"io"
 	"io/ioutil"
 	nurl "net/url"
@@ -15,7 +17,6 @@ import (
 	"github.com/Azure/go-autorest/autorest/adal"
 	"github.com/hashicorp/go-multierror"
 	mssql "github.com/microsoft/go-mssqldb" // mssql support
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
 )
 
 func init() {
