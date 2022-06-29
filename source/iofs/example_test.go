@@ -7,8 +7,8 @@ import (
 	"embed"
 	"log"
 
+	"github.com/vippsas/vipps-login-golang-migrate/"
 	"github.com/vippsas/vipps-login-golang-migrate/source/iofs"
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
 )
 
 //go:embed testdata/migrations/*.sql

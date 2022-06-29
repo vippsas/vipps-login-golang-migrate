@@ -19,7 +19,7 @@ import (
 )
 
 import (
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
+	"github.com/vippsas/vipps-login-golang-migrate/"
 )
 
 func init() {

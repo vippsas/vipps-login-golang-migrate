@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/vippsas/vipps-login-golang-migrate/"
 	_ "github.com/vippsas/vipps-login-golang-migrate/source/file"
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
 	_ "modernc.org/ql/driver"
 )
 

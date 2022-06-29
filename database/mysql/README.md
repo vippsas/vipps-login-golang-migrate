@@ -28,7 +28,7 @@ import (
     "database/sql"
     
     _ "github.com/go-sql-driver/mysql"
-    "github.com/vippsas/vipps-login-golang-migrate/v1"
+    "github.com/vippsas/vipps-login-golang-migrate/"
     "github.com/vippsas/vipps-login-golang-migrate/database/mysql"
     _ "github.com/vippsas/vipps-login-golang-migrate/source/file"
 )

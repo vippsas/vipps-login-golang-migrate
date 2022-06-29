@@ -20,8 +20,8 @@ import (
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgerrcode"
 	_ "github.com/jackc/pgx/v4/stdlib"
+	"github.com/vippsas/vipps-login-golang-migrate/"
 	"github.com/vippsas/vipps-login-golang-migrate/database/multistmt"
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
 )
 
 func init() {

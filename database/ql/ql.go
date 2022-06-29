@@ -11,7 +11,7 @@ import (
 
 	nurl "net/url"
 
-	"github.com/vippsas/vipps-login-golang-migrate/v1"
+	"github.com/vippsas/vipps-login-golang-migrate/"
 	_ "modernc.org/ql/driver"
 )
 
